@@ -26,9 +26,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILAsmBinding", "src\addins\ILAsmBinding\ILAsmBinding.csproj", "{961B9266-C44A-42B6-BA3D-3FB229C9C417}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VersionControl", "VersionControl", "{DEEB9163-3966-4E5E-9AB5-FBB3E01AC82A}"
-	ProjectSection(MonoDevelopProperties) = preProject
-		outputpath = ../../build/AddIns/VersionControl
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoDevelop.VersionControl", "src\addins\VersionControl\MonoDevelop.VersionControl\MonoDevelop.VersionControl.csproj", "{19DE0F35-D204-4FD8-A553-A19ECE05E24D}"
 EndProject
@@ -189,9 +186,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoDevelop.CrashLog", "src\tools\mdcrashlog\MonoDevelop.CrashLog.csproj", "{D90DF5C6-0ABE-4E13-930D-C3AE95FBE5C4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{78C10DAE-D3D7-44FC-93DF-831D8D54ECF9}"
-	ProjectSection(MonoDevelopProperties) = preProject
-		BaseDirectory = tests
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{1497D0A8-AFF1-4938-BC22-BE79B358BA5B}"
 EndProject
@@ -509,12 +503,12 @@ Global
 		{875D389F-48D1-4D46-BFC6-998837DD6AE0}.DebugWin32|x86.Build.0 = Debug|Any CPU
 		{875D389F-48D1-4D46-BFC6-998837DD6AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{875D389F-48D1-4D46-BFC6-998837DD6AE0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A04FF99-5DFE-4E3D-A24F-72A621C8DDC6}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{8A04FF99-5DFE-4E3D-A24F-72A621C8DDC6}.Debug|Any CPU.Build.0 = Debug|x86
+		{8A04FF99-5DFE-4E3D-A24F-72A621C8DDC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A04FF99-5DFE-4E3D-A24F-72A621C8DDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A04FF99-5DFE-4E3D-A24F-72A621C8DDC6}.DebugMac|Any CPU.ActiveCfg = Debug|Any CPU
 		{8A04FF99-5DFE-4E3D-A24F-72A621C8DDC6}.DebugMac|Any CPU.Build.0 = Debug|Any CPU
-		{8A04FF99-5DFE-4E3D-A24F-72A621C8DDC6}.DebugWin32|x86.ActiveCfg = Debug|x86
-		{8A04FF99-5DFE-4E3D-A24F-72A621C8DDC6}.DebugWin32|x86.Build.0 = Debug|x86
+		{8A04FF99-5DFE-4E3D-A24F-72A621C8DDC6}.DebugWin32|x86.ActiveCfg = Debug|Any CPU
+		{8A04FF99-5DFE-4E3D-A24F-72A621C8DDC6}.DebugWin32|x86.Build.0 = Debug|Any CPU
 		{8A04FF99-5DFE-4E3D-A24F-72A621C8DDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A04FF99-5DFE-4E3D-A24F-72A621C8DDC6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8CCA39DD-8412-4547-BE7F-0C3D3ACC6FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
